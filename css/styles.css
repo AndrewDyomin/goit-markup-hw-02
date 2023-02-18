@@ -1,12 +1,19 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
 }
 
-.header {}
+/*----------------header------------------*/
 
-.header-menu {}
+.header {
 
-.header-menu-logo {
+}
+
+.header-menu {
+
+}
+
+.menu-logo {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -22,16 +29,84 @@ body {
 
 }
 
-.header-list {}
+.header-list {
+    list-style: none;
+}
 
 .header-item {}
 
-.header-item-link {}
+.header-item-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #2E2F42;
+}
 
 .header-contacts {}
 
-.header-contacts-list {}
+.header-contacts-list {
+    list-style: none;
+}
 
 .header-contacts-item {}
 
-.header-contacts-link {}
+.header-contacts-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+/*----------------header------------------*/
+
+/*------------------main------------------*/
+
+.hero-section {
+    background-color: #2E2F42;
+}
+
+.hero-section-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-section-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+}
+.hero-section-btn:hover,
+.hero-section-btn:focus {
+    background-color: #404BBF;
+}
+
+/*------------------main------------------*/
+
+/*-----------------footer-----------------*/
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-studio {
+    color: #F4F4FD;
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+/*-----------------footer-----------------*/
