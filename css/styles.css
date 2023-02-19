@@ -1,6 +1,16 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: var(--NAVY-BLUE);
+}
+
+:root {
+    --NAVY-BLUE: #2E2F42;
+    --IRIS: #4D5AE5;
+    --SLATE: #434455;
+    --WHITE: #FFFFFF;
+    --OCEAN: #404BBF;
+    --CLOUD: #F4F4FD;
+    --CORNFLOWER: #E7E9FC;
 }
 
 /*----------------header------------------*/
@@ -21,11 +31,11 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #4D5AE5;
+    color: var(--IRIS);
 }
 
 .header-studio {
-    color: #2E2F42;
+    color: var(--NAVY-BLUE);
 
 }
 
@@ -41,7 +51,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #2E2F42;
+    color: var(--NAVY-BLUE);
 }
 
 .header-contacts {}
@@ -58,7 +68,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--SLATE);
     text-decoration: none;
 }
 
@@ -67,14 +77,14 @@ body {
 /*------------------main------------------*/
 
 .hero-section {
-    background-color: #2E2F42;
+    background-color: var(--NAVY-BLUE);
 }
 
 .hero-section-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--WHITE);
 }
 
 .hero-section-btn {
@@ -82,13 +92,117 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color: var(--WHITE);
+    background-color: var(--IRIS);
     border-radius: 4px;
 }
 .hero-section-btn:hover,
 .hero-section-btn:focus {
-    background-color: #404BBF;
+    background-color: var(--OCEAN);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantages-list {}
+
+.advantages-item {
+    list-style: none;
+}
+
+.advantages-item-title {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE);
+}
+
+.advantages-item-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--SLATE);
+}
+
+.title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--NAVY-BLUE);
+}
+
+.product-list {}
+
+.product-item {
+    list-style: none;
+}
+
+.team-list {}
+
+.team-item {
+    list-style: none;
+}
+
+.name,
+.portfolio-list-title {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE);
+}
+
+.team-role,
+.portfolio-list-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--SLATE);
+}
+
+.portfolio-section {}
+
+.portfolio-btn-list {
+    list-style: none;
+}
+
+.portfolio-btn-item {
+
+}
+
+.portfolio-btn {
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--IRIS);
+    background-color: var(--CLOUD);
+    border: 1px solid var(--CORNFLOWER);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: var(--OCEAN);
+    color: var(--WHITE);
+}
+
+.portfolio-item {
+    list-style: none;
 }
 
 /*------------------main------------------*/
@@ -96,17 +210,17 @@ body {
 /*-----------------footer-----------------*/
 
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--NAVY-BLUE);
 }
 
 .footer-studio {
-    color: #F4F4FD;
+    color: var(--CLOUD);
 }
 
 .footer-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--CORNFLOWER);
 }
 /*-----------------footer-----------------*/
