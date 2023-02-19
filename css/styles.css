@@ -95,6 +95,7 @@ body {
     color: var(--WHITE);
     background-color: var(--IRIS);
     border-radius: 4px;
+    cursor: pointer;
 }
 .hero-section-btn:hover,
 .hero-section-btn:focus {
