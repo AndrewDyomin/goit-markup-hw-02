@@ -54,6 +54,12 @@ body {
     color: var(--NAVY-BLUE);
 }
 
+.header-item-link:hover,
+.header-item-link:focus {
+    color: var(--OCEAN);
+    text-decoration: underline;
+}
+
 .header-contacts {}
 
 .header-contacts-list {
@@ -70,6 +76,11 @@ body {
     letter-spacing: 0.02em;
     color: var(--SLATE);
     text-decoration: none;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: var(--OCEAN);
 }
 
 /*----------------header------------------*/
