@@ -150,6 +150,10 @@ body {
     list-style: none;
 }
 
+.team-section {
+    background-color: var(--CLOUD);
+}
+
 .team-list {}
 
 .team-item {
