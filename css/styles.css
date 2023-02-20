@@ -1,16 +1,16 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--NAVY-BLUE);
+    color: var(--navy-blue);
 }
 
 :root {
-    --NAVY-BLUE: #2E2F42;
-    --IRIS: #4D5AE5;
-    --SLATE: #434455;
-    --WHITE: #FFFFFF;
-    --OCEAN: #404BBF;
-    --CLOUD: #F4F4FD;
-    --CORNFLOWER: #E7E9FC;
+    --navy-blue: #2E2F42;
+    --iris: #4D5AE5;
+    --slate: #434455;
+    --white: #FFFFFF;
+    --ocean: #404BBF;
+    --cloud: #F4F4FD;
+    --cornflower: #E7E9FC;
 }
 
 /*----------------header------------------*/
@@ -24,18 +24,18 @@ body {
 }
 
 .menu-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--IRIS);
+    color: var(--iris);
 }
 
 .header-studio {
-    color: var(--NAVY-BLUE);
+    color: var(--navy-blue);
 
 }
 
@@ -51,13 +51,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--NAVY-BLUE);
+    color: var(--navy-blue);
 }
 
 .header-item-link:hover,
 .header-item-link:focus {
-    color: var(--OCEAN);
-    text-decoration: underline;
+    color: var(--ocean);
 }
 
 .header-contacts {}
@@ -70,17 +69,16 @@ body {
 
 .header-contacts-link {
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--SLATE);
+    color: var(--slate);
     text-decoration: none;
 }
 
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-    color: var(--OCEAN);
+    color: var(--ocean);
 }
 
 /*----------------header------------------*/
@@ -88,29 +86,30 @@ body {
 /*------------------main------------------*/
 
 .hero-section {
-    background-color: var(--NAVY-BLUE);
+    background-color: var(--navy-blue);
 }
 
 .hero-section-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: var(--WHITE);
+    color: var(--white);
 }
 
 .hero-section-btn {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--WHITE);
-    background-color: var(--IRIS);
+    color: var(--white);
+    background-color: var(--iris);
     border-radius: 4px;
     cursor: pointer;
 }
 .hero-section-btn:hover,
 .hero-section-btn:focus {
-    background-color: var(--OCEAN);
+    background-color: var(--ocean);
 }
 
 .visually-hidden {
@@ -136,14 +135,14 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--NAVY-BLUE);
+    color: var(--navy-blue);
 }
 
 .advantages-item-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--SLATE);
+    color: var(--slate);
 }
 
 .title {
@@ -152,7 +151,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--NAVY-BLUE);
+    color: var(--navy-blue);
 }
 
 .product-list {}
@@ -162,7 +161,7 @@ body {
 }
 
 .team-section {
-    background-color: var(--CLOUD);
+    background-color: var(--cloud);
 }
 
 .team-list {}
@@ -173,10 +172,11 @@ body {
 
 .name,
 .portfolio-list-title {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--NAVY-BLUE);
+    color: var(--navy-blue);
 }
 
 .team-role,
@@ -184,7 +184,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--SLATE);
+    color: var(--slate);
 }
 
 .portfolio-section {}
@@ -198,23 +198,22 @@ body {
 }
 
 .portfolio-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
-    color: var(--IRIS);
-    background-color: var(--CLOUD);
-    border: 1px solid var(--CORNFLOWER);
+    color: var(--iris);
+    background-color: var(--cloud);
+    border: 1px solid var(--cornflower);
     border-radius: 4px;
     cursor: pointer;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    background-color: var(--OCEAN);
-    color: var(--WHITE);
+    background-color: var(--ocean);
+    color: var(--white);
 }
 
 .portfolio-item {
@@ -226,17 +225,17 @@ body {
 /*-----------------footer-----------------*/
 
 .footer {
-    background-color: var(--NAVY-BLUE);
+    background-color: var(--navy-blue);
 }
 
 .footer-studio {
-    color: var(--CLOUD);
+    color: var(--cloud);
 }
 
 .footer-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--CORNFLOWER);
+    color: var(--cornflower);
 }
 /*-----------------footer-----------------*/
